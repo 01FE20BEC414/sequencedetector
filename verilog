@@ -52,7 +52,6 @@ default next_state=zero;
 endcase
 end
 
-
 always@(current_state)
 begin
 case(current_state)
